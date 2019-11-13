@@ -1,0 +1,223 @@
+* {
+    font-family: Arial;
+}
+body {
+    background: #FAEBD7;
+}
+
+/*mobile*/
+@media(min-width: 0px){
+    /*Menu*/
+    #img-inicio {
+        position: relative;
+        float: right;
+    }
+    #menu {
+        position:relative;
+        font-size:1.0em;        
+        padding:0;
+        border: 1px solid #e0e0e0;
+    }
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        background-color: #363636;
+    }
+    #menu li {
+        padding:0; 
+        margin:0;
+    }
+    #menu li a,  #menu li a:link {
+        font-size:1.2em;
+        text-decoration: none;
+        padding: 0.8em 0 0.8em 1em;
+        display: block; 
+        color: white;
+        text-decoration: none;                               
+    }
+    #menu li a:hover {
+        color: lightblue;
+    }
+
+    /*Itens da página*/
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .conteudo {
+        margin: 0 auto;
+        text-align: center;
+        width: 70%;
+        left: 50%;            
+    }
+    .titulo {
+        color: #A52A2A;
+    }
+    #itens {
+        width: 80%;
+        margin-left: 10%;
+    }
+    table{
+        width: 100%;
+        table-layout: fixed;
+    }
+    td, th {
+        padding: .2em;
+        border: 1px solid #0000CD;
+        text-align: center;
+    }
+
+    th{
+        font-weight: bold;
+        background-color: #6495ED
+    }
+    dt {
+        color: #8B3E2F;
+        font-weight: bold;
+    }
+    dd {
+        margin-bottom: 15px;
+    }   
+    .galeria-foto {
+        background: #F4A460;
+        width: 300px;
+        padding: 5px;
+        margin: 2px;
+    }
+    #video{
+        width: 350px;
+        height: 300px;
+    }
+    label{
+        color: #555;
+        font-weight: bold;
+        
+    }
+    .campo{
+        margin: 5px;
+        padding-bottom: 1em;
+        width: 60%;
+        border: 2px solid #ccc;
+        padding: .7em;
+    }
+    .botao-enviar{
+        padding: .1em 1em;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: #fff;
+        background-color:#0c8cd3;
+        border-color: #ccc;
+        width: 50%;
+        display: block;
+        clear: both;
+        margin-left: 25%;
+    }
+    footer{
+        background: #363636;
+        height: 100px;
+        width: 100%;
+        margin: 0;
+        color: #FFFAFA;
+    }
+    footer p{
+        margin-left: 30%;
+    }
+    #topo{
+        position: fixed;
+        font-weight: bold;        
+    }
+    #mensagens-erro{
+        color: #FF6347;
+        font-weight: bold;
+        list-style-type: none;
+    }
+}
+
+
+/*tablet*/    
+@media(min-width: 680px){
+    #img-inicio {
+        position: static;
+        float: right;        
+       
+    }
+    
+    .botao-enviar{
+        padding: .1em 1em;
+        font-size: 1.2em;
+        cursor: pointer;
+        color: #fff;
+        background-color:#0c8cd3;
+        border-color: #ccc;
+        width: 30%;
+        display: block;
+        clear: both;
+        margin-left: 35%;
+    }
+}
+/*desktop*/
+@media(min-width: 1000px){
+        /*Menu*/
+        #img-inicio {
+            position: static;
+            float: left;  
+            width: 250px;                  
+            height: 60px;
+        }        
+        #menu {
+            display: block;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 130px;
+            border: 1px solid #e0e0e0;
+        }
+        #menu ul {
+            padding:0px;
+            margin:0px;
+            background-color: #363636;
+            list-style:none;
+            height: 130px;
+            text-align: center;
+        }
+        #menu ul li { 
+            display: inline-block;    
+        }
+    
+        #menu ul li a {
+            padding: 2px 10px;
+            display: inline-block;
+            margin: 20px;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        #menu ul li a:hover {
+            color: lightblue;
+        }
+        
+        .galeria-foto {
+            background: #F4A460;
+            width: 385px;
+            padding: 5px;
+            margin: 2px;
+            margin-left: 25%;
+        }
+        #video{
+            width: 450px;
+            height: 320px;
+        }
+        .botao-enviar{
+            padding: .3em 2em;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: #fff;
+            background-color:#0c8cd3;
+            border-color: #ccc;
+            width: 20%;
+            display: block;
+            clear: both;
+            margin-left: 40%;
+        }
+}
