@@ -53,7 +53,7 @@ function validaDados(dados){
 //cria elemento dinamico de erro
 function exibeMensagensDeErro(erros) {
     var ul = document.querySelector("#mensagens-erro");
-    ul.innerHTML = "";
+    ul.innerHTML = "";   //zerar a lista
 
     erros.forEach((erro) => {
         var li = document.createElement("li");
