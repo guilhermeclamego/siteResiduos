@@ -5,7 +5,7 @@ body {
     background: #FAEBD7;
 }
 
-/*mobile*/
+/*mobile first*/
 @media(min-width: 0px){
     /*Menu*/
     #img-inicio {
